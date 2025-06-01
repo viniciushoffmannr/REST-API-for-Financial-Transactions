@@ -1,5 +1,4 @@
 import fastify from 'fastify'
-import { knex } from './database'
 import { env } from './env'
 import { transactionsRoutes } from './routes/transactions'
 import cookie from '@fastify/cookie'
