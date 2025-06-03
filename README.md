@@ -35,8 +35,8 @@ A high-performance Node.js REST API for managing financial transactions built wi
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/transactions-api.git
-cd transactions-api
+git clone https://github.com/viniciushoffmannr/REST-API-for-Financial-Transactions.git
+cd REST-API-for-Financial-Transactions
 ```
 
 2. Install dependencies
