@@ -1,8 +1,8 @@
-# REST API for Financial Transactions
+# 💰 REST API for Financial Transactions
 
-A Node.js REST API for managing financial transactions built with Fastify, Knex, and SQLite.
+A high-performance Node.js REST API for managing financial transactions built with Fastify, Knex, and SQLite.
 
-## Features
+## ✨ Features
 
 - ✅ Create new transactions (credit/debit)
 - ✅ List all transactions
@@ -10,22 +10,22 @@ A Node.js REST API for managing financial transactions built with Fastify, Knex,
 - ✅ View specific transaction details
 - ✅ Session-based user identification
 
-## Business Rules
+## 📋 Business Rules
 
 - ✅ Transactions can be credit (adds to total) or debit (subtracts from total)
 - ✅ User identification across requests via cookies
 - ✅ Users can only view transactions they created
 
-## Technologies
+## 🛠️ Technologies
 
-- **Fastify**: High-performance web framework
-- **Knex**: SQL query builder
-- **SQLite**: Database
-- **TypeScript**: Type safety
-- **Zod**: Schema validation
-- **Vitest**: Testing framework
+- **⚡ Fastify**: High-performance web framework
+- **🔄 Knex**: SQL query builder
+- **🗃️ SQLite**: Database
+- **📘 TypeScript**: Type safety
+- **✓ Zod**: Schema validation
+- **🧪 Vitest**: Testing framework
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -61,9 +61,9 @@ npm run knex -- migrate:latest
 npm run dev
 ```
 
-The server will be running at http://localhost:3333
+The server will be running at http://localhost:3333 🚀
 
-## API Endpoints
+## 🔌 API Endpoints
 
 ### Create Transaction
 ```
@@ -93,14 +93,14 @@ GET /transactions/summary
 GET /transactions/:id
 ```
 
-## Testing
+## 🧪 Testing
 
 Run the test suite:
 ```bash
 npm test
 ```
 
-## Building for Production
+## 🏗️ Building for Production
 
 ```bash
 npm run build
